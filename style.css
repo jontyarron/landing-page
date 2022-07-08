@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(77, 23, 23);
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+/*Header*/
+
+.header {
+    display: flex;
+    flex-flow: column;
+    background-color: #1f2937;
+    padding: 20px;
+    height: 600px;
+    margin: -10px -10px;
+
+}
+.logo {
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    color: #fff;
+    font-weight: weight;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    align-items: center;
+    gap: 800px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin: -0px -20px 150px -20px;
+}
+
+.header-text-main {
+    width: 450px;
+    color: #fff;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.header-sub-2 {
+    font-size: 20px;
+    
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-header {
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 20px 60px;
+    width: 600px;
+    height: 300px;
+}
+  
+.sub-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.sub-header {
+    
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+/*2nd Section*/
+
+.container {
+    display: flex;
+    flex-direction: column wrap;
+    background-color: rgb(77, 23, 23);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    margin: 10px -10px 0 -10px;
+    flex: 1;
+    height: 600px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.madara-imgs {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px 40px;
+
+}
+
+.mid-section {
+    display: flex;
+}
+
+.img-card {
+    width: 320px;
+    height: 250px;
+    margin: 0 40px;
+}
+
+#img-text {
+    display: flex;
+    max-width: 290px;
+    justify-content: center;
+}
+
+/* 3rd Section*/
+
+ div.sub-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    background-color: #1f2937;
+    justify-content: center;
+    margin: 0 -10px 0 -10px;
+    padding: 130px;
+    height: 400px;
+}
+.quote {
+    width: 800px;
+    margin: auto;
+}
+
+.madara-author{
+    margin-left: 1000px;
+}
+
+.sign-up-tab {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px 40px;
+}
+
+.sign-up-2 {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: rgb(53, 52, 52);
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    padding: 15px;
+    margin: 0 -10px 0 -10px;
+}
+
+.tab-heading {
+    font-size: 25px;
+
+}
